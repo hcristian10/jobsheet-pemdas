@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body, .card, .navbar, header, footer {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+button.btn.btn-luxury {
+    border: 2px solid var(--bs-body-color) !important;
+    color: var(--bs-body-color) !important;
+    background-color: transparent !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+button.btn.btn-luxury:hover {
+    background-color: var(--bs-body-color) !important;
+    color: var(--bs-body-bg) !important;
+    border-color: var(--bs-body-color) !important;
+}
